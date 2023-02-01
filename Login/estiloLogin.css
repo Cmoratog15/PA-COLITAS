@@ -1,0 +1,113 @@
+:root{
+    --marron:#481705;
+    --naranja: #e85d3f; 
+    --naranjaClaro: #e79035;
+    --amarillo: #ecc95a;
+    --amarilloClaro: #f4eb97; 
+    --azul:#4300bc;
+    --verdePistacho: #79bc00; 
+    --rosa:#EE6CA0;
+}
+/*---------LOGIN----------*/
+h1{
+    font-size: 30px;
+    color: var(--naranja);
+    text-transform: uppercase;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.formularioInicio {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.formularioInicio input{
+    margin-bottom: 10px;
+}
+
+.formularioInicio .input-group{
+    height: 3.5rem;
+}
+a{
+    text-decoration: none;
+    color: var(--rosa);
+}
+a:hover{
+    color: var(--azul);
+}
+
+.boton{
+    background-color: var(--verdePistacho);
+    color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.boton:hover{
+    background-color: var(--azul);
+    color:white;
+}
+/*-----------REGISTRO-------------------*/
+.formularioRegistro {
+    max-width: 900px;
+    padding: 15px;
+
+}
+
+.formularioRegistro label{
+    font-weight: bold;
+    margin: 10px 0 10px 10px;
+    padding: 2px;
+    color: var(--azul);
+}
+form img{
+    display: block;
+    margin: auto;
+}
+
+.botonB{
+    padding: 10px 60px;
+    font-weight: bold;
+}
+
+/*------------MI CUENTA-----------*/
+
+.mostrarDatos {
+    max-width: 750px;
+    padding: 15px;
+}
+
+h3{
+    color: var(--azul);
+}
+
+.botonOculto{
+    background-color: var(--rosa);
+    color: white;
+}
+
+.botonMostrar{
+    background-color: var(--verdePistacho);
+    color:white;
+}
+/*---MODIFICAR DATOS ---*/
+.botonVolver{
+    background-color: var(--naranjaClaro);
+    font-weight: bold;
+    color:white;
+    padding:  10px 40px;
+}
+
+.botonVolver:hover{
+    background-color: var(--naranja);
+    font-weight: bold;
+    color:white;
+}
+

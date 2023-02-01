@@ -1,0 +1,35 @@
+body{
+    background-image: url(imgBD/insertar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #EE6CA0;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    color:#4300bc;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.botonVolver{
+    background-color: #EE6CA0;
+    font-weight: bold;
+    color:white;
+    padding:  10px 20px;
+}
+
+.botonVolver:hover{
+    background-color: #4300bc;
+    font-weight: bold;
+    color:white;
+}
